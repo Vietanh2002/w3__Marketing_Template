@@ -1,0 +1,27 @@
+@media screen and (max-width: 992px) {
+   .slider__content {
+      flex-wrap: wrap;
+   }
+
+   .col--fourth {
+      width: 50%;
+   }
+}
+
+@media screen and (max-width: 600px) {
+   .col--fourth {
+      width: 100%;
+   }
+
+   .plans__card {
+      flex-wrap: wrap;
+   }
+
+   .col-third {
+      width: 100%;
+   }
+
+   .about__list {
+      flex-wrap: wrap;
+   }
+}
